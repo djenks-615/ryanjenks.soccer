@@ -5642,3 +5642,18 @@ div[class*="col"]:nth-of-type(4n + 4) .info-inner {
         margin-top: 0;
     }
 }
+
+.about-layout {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 30px;
+    align-items: start;
+}
+.about-layout-img {
+    min-width: 0;
+}
+@media (max-width: 768px) {
+    .about-layout {
+        grid-template-columns: 1fr;
+    }
+}
