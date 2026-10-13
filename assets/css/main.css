@@ -1359,7 +1359,7 @@ input[type="submit"] {
 
 .section-header {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: 75px;
 }
 
@@ -5643,6 +5643,10 @@ div[class*="col"]:nth-of-type(4n + 4) .info-inner {
     }
 }
 
+.about-section {
+    overflow: visible;
+    padding-top: 120px !important;
+}
 .about-layout {
     display: grid !important;
     grid-template-columns: minmax(0, 1fr) 280px !important;
