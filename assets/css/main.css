@@ -3701,7 +3701,7 @@ footer .container {
 
 /* About Section Starts Here */
 .about-content .header-para {
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .about-area {
@@ -3723,7 +3723,6 @@ footer .container {
 
 .about-area .item .content {
     width: calc(100% - 65px);
-    max-width: 350px;
 }
 
 .about-area .item .content ul {
@@ -5644,16 +5643,23 @@ div[class*="col"]:nth-of-type(4n + 4) .info-inner {
 }
 
 .about-layout {
-    display: grid;
-    grid-template-columns: 1fr 280px;
+    display: grid !important;
+    grid-template-columns: 1fr 280px !important;
     gap: 30px;
     align-items: center;
+}
+.about-layout-text {
+    min-width: 0;
 }
 .about-layout-img {
     min-width: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .about-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+    }
+    .about-layout-img {
+        max-width: 400px;
+        margin: 0 auto;
     }
 }
