@@ -5647,7 +5647,7 @@ div[class*="col"]:nth-of-type(4n + 4) .info-inner {
     display: grid !important;
     grid-template-columns: minmax(0, 1fr) 280px !important;
     gap: 30px;
-    align-items: center;
+    align-items: start;
 }
 .about-layout-text {
     min-width: 0;
