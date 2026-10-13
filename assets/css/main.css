@@ -5651,7 +5651,6 @@ div[class*="col"]:nth-of-type(4n + 4) .info-inner {
 }
 .about-layout-text {
     min-width: 0;
-    overflow: hidden;
 }
 .about-layout-img {
     min-width: 0;
