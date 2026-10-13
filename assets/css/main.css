@@ -2224,26 +2224,26 @@ footer .container {
 
 /* Banner Section */
 .banner-section {
-    padding: 290px 0 210px;
+    padding: 160px 0 80px;
     position: relative;
     overflow: hidden;
 }
 
 @media (max-width: 991px) {
     .banner-section {
-        padding: 250px 0 0;
+        padding: 140px 0 60px;
     }
 }
 
 @media (max-width: 767px) {
     .banner-section {
-        padding: 200px 0 0;
+        padding: 120px 0 50px;
     }
 }
 
 @media (max-width: 575px) {
     .banner-section {
-        padding: 180px 0 0;
+        padding: 110px 0 40px;
     }
 }
 
@@ -2373,13 +2373,28 @@ footer .container {
 
 .banner-content .title {
     text-transform: uppercase;
-    margin-bottom: 50px;
-    font-size: 93px;
-    line-height: 96px;
+    margin-bottom: 25px;
+    font-size: 60px;
+    line-height: 70px;
 }
 
 .banner-content .sign {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+}
+
+.banner-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: #08d565;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.banner-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 0;
 }
 
 .banner-content .sign img {
@@ -2392,13 +2407,13 @@ footer .container {
     }
 
     .banner-content .title {
-        font-size: 70px;
-        line-height: 80px;
-        margin-bottom: 20px;
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 15px;
     }
 
     .banner-content .sign {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 
@@ -2408,12 +2423,12 @@ footer .container {
     }
 
     .banner-content .title {
-        font-size: 50px;
-        line-height: 65px;
+        font-size: 36px;
+        line-height: 46px;
     }
 
     .banner-content .sign {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 }
 
