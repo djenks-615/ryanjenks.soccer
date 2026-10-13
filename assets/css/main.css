@@ -5646,6 +5646,13 @@ div[class*="col"]:nth-of-type(4n + 4) .info-inner {
 .about-section {
     overflow: visible;
     padding-top: 120px !important;
+    scroll-margin-top: 80px;
+}
+.about-content,
+.about-content p,
+.about-layout-text {
+    overflow: visible !important;
+    max-height: none !important;
 }
 .about-layout {
     display: grid !important;
